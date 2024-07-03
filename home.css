@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+main .newPostContainer {
+  margin-top: 5rem;
+  width: 100%;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 1px 0 3px rgba(0, 0, 0, 0.2);
+  display: flex;
+  border-radius: 3px;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+main .newPostContainer .userInfoDiv {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+main .newPostContainer .userInfoDiv img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+main .newPostContainer .formDiv {
+  width: 100%;
+}
+main .newPostContainer .formDiv textarea {
+  border: 1px solid #ccc;
+  height: 6rem;
+  padding: 15px;
+  resize: none;
+  color: #727272;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  outline: none;
+}
+main .newPostContainer .utilitsDiv {
+  display: flex;
+  justify-content: space-between;
+}
+main .newPostContainer .utilitsDiv .mediaDiv {
+  display: flex;
+  gap: 0.5rem;
+}
+main .newPostContainer .utilitsDiv .mediaDiv i {
+  cursor: pointer;
+}
+main .newPostContainer .utilitsDiv .btnDiv button {
+  padding: 9px 28px;
+  background: #74C0FC;
+  border: none;
+  color: white;
+  font-weight: bold;
+  box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=home.css.map */
